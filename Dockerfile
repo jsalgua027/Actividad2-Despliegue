@@ -4,11 +4,11 @@ RUN mkdir -p /home/apps/miapp
 
 WORKDIR /home/apps/miapp
 
-COPY /enrutamiento-ejercicios/package.json /home/apps/miapp/package.json
+COPY /enrutamiento-ejercicios/package.json /home/apps/enrutamiento-ejercicios/package.json
 
-COPY /enrutamiento-ejercicios/src /home/apps/miapp/src
+COPY /enrutamiento-ejercicios/src /home/apps/enrutamiento-ejercicios/src
 
-COPY /enrutamiento-ejercicios/public /home/apps/miapp/public
+COPY /enrutamiento-ejercicios/public /home/apps/enrutamiento-ejercicios/public
 
 RUN npm install
 
